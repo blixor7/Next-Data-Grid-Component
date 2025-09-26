@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Data Grid Component
 
-## Getting Started
+A customizable and optimized data table component designed for modern React applications, built on Next.js with Tailwind CSS for styling.
 
-First, run the development server:
+## Quick Start
 
+Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the component.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Built with Next.js 14+ App Router
+- Styled with Tailwind CSS
+- TypeScript for type safety
+- ESLint and Prettier configuration included
+- Responsive design ready
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+The main component can be modified in `app/page.tsx` - changes will reflect immediately with hot reloading.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project structure includes:
+```
+src/          # Source code
+public/       # Static assets
+tailwind.config.ts  # Tailwind configuration
+next.config.mjs     # Next.js configuration
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Customization
 
-## Deploy on Vercel
+This data grid component is designed to be easily customizable:
+- Modify styles through Tailwind classes
+- Extend functionality with additional props
+- Integrate with various data sources
+- Add features like sorting, filtering, and pagination
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The easiest deployment method is using Vercel:
+
+```bash
+npm run build
+```
+
+For other deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+## License
+
+MIT License - free for personal and commercial use.
